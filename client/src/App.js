@@ -3,8 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App" style={{fontSize:'10rem'}}>
-      Amars changes
+    <div className="App">
+      <header className="App-header">
+        <p>Belal Tester </p>
+      </header>
+      <div className="App" style={{ fontSize: '10rem' }}>
+        Amars changes
+      </div>
     </div>
   );
 }
