@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -7,6 +7,9 @@ function App() {
       <header className="App-header">
         <p>Belal Tester </p>
       </header>
+      <div className="App" style={{ fontSize: '10rem' }}>
+        Amars changes
+      </div>
     </div>
   );
 }
