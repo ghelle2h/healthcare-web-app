@@ -1,0 +1,11 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+@import "../partials/fonts";
+
+.home-container{
+    background-color: $navy;
+    color: $offwhite;
+    @include bold; 
+    font-size: 1.5rem;
+    
+}
