@@ -1,20 +1,10 @@
-
-import './App.css';
+import './App.scss';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>GH tester </p>
-      </header>
-
-  
-
-      <div className="App" style={{ fontSize: '10rem' }}>
-        Amars changessss
-      </div>
-      <input placeholder="enter success" />
-      <button>submit</button>
+      <Home/>
     </div>
   );
 }
